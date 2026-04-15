@@ -6,8 +6,11 @@ object caperucita {
 
     method pesoTotal() = pesoCuerpo + pesoCanasta
 
+    test
+
 }
 
 object abuelita {
-    const pesoCuerpo = 50
+
+    method pesoAbuelita() = 50
 }

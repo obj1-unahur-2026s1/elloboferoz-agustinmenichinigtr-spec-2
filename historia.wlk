@@ -15,8 +15,9 @@ method contarHistoria() {
 }
 
 method primeraParte() {
- //Feroz encuentra a Caperucita luego de correr al bosque
+ //Feroz encuentra a Caperucita luego de correr al bosque, pierde 1 de peso. 
 
+ferozAvanza()
  
 
 }
