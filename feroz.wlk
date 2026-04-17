@@ -1,14 +1,21 @@
 object feroz {
   var peso = 10
 
-  method pesoferoz() = peso
 
+  method ferozEstaSaludable () {
+    peso >= 20 && peso <= 150
+  }
+
+  method ferozCome_(comida) {
+    peso += comida*10/100
+  }
+
+  method ferozAvanzaUnidad() {
+    peso -= 1
+  }
+
+  method ferozTieneCrisis() {
+    peso = 10
+  }
 }
 
-method ferozCome_(comida) {
-  pesoferoz() = pesoferoz() + comida*10/100
-}
-
-method ferozAvanzaUnidad() {
-    feroz.pesoFeroz() = feroz.pesoFeroz() - 1
-}
