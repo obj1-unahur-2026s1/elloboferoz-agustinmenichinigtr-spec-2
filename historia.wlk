@@ -10,7 +10,7 @@ method contarHistoria() {
     segundaParte()
     terceraParte()
     cuartaParte()
-    ultimaParte()
+    diagnosticoFeroz()
 
 }
 
@@ -30,4 +30,14 @@ method segunda parte() {
 method terceraParte() {
     //Caperucita pierde una manzana de la canasta, es comida por Feroz al llegar a casa.
     caperucita.canasta.pierdeManzana()
+    feroz.come(caperucita)
+}
+
+method cuartaParte() {
+    //Cazador causa una crisis en feroz
+    feroz.tieneCrisis()
+}
+
+method diagnosticoFeroz() {
+    feroz.estaSaludable()
 }
